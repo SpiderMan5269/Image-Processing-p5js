@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CM2030 Image Processing Applications</title>
+    <style>
+      html, body { margin: 0; height: 100%; }
+      body {
+        background: radial-gradient(1200px 700px at 50% 0%, #1b2130 0%, #0c0f16 70%);
+        color: #eef2ff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        overflow: hidden;
+      }
+      main { display: grid; place-items: center; min-height: 100vh; }
+      canvas { box-shadow: 0 18px 60px #000a; border-radius: 8px; }
+    </style>
+  </head>
+  <body>
+    <main></main>
+    <script src="libraries/p5.min.js"></script>
+    <!-- App modules (merged into one file for submission via the bundler). -->
+    <script src="js/config.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/imageProcessing.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/panorama.js"></script>
+    <script src="js/extension.js"></script><!-- creative extension: K-means colour palette -->
+    <script src="main.js"></script>
+  </body>
+</html>
