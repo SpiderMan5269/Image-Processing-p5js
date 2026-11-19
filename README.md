@@ -1,5 +1,7 @@
 # Image Processing Applications in p5.js
 
+**Live demo:** https://spiderman5269.github.io/Image-Processing-p5js/
+
 Two interactive image-processing applications in one p5.js app, presented as a
 camera-style interface. Built for CM2030 Graphics Programming, Coursework 2
 (BSc Computer Science, University of London, academic direction by Goldsmiths).
